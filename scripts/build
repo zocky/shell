@@ -1,0 +1,26 @@
+#/bin/sh
+
+# Build this particular package in the build directory
+## Customize as necessary.
+
+## When this function is invoked:
+### $ROOT is the root directory of the repo
+### $BUILD is the build directory where the package should be built
+### README and LICENSE are already copied from $ROOT to $BUILD
+### $ROOT/real.package.json is already copied to $BUILD/package.json
+
+### use success and error instead of echo to output any messages
+### use fatal to display a fatal error and abort 
+
+
+build_package () {
+  { 
+    announce "Copying files to build";
+    cp -a $ROOT/src/* $BUILD;
+  } && {  ok;  } || { fail; fatal; }
+}
+
+# ---------------------------------------------
+# Everything under this line should probably be left alone.
+
+. "$(dirname "$0")/includes/build.sh"

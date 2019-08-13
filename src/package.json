@@ -1,0 +1,26 @@
+{
+  "name": "@websh/shell",
+  "version": "0.1.0",
+  "description": "WebShell shell",
+  "main": "index.mjs",
+  "module": "index.mjs",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/shell.git"
+  },
+  "keywords": [
+    "websh",
+    "webshell",
+    "shell"
+  ],
+  "author": "Zoran Obradović, Ljudmila.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/shell/issues"
+  },
+  "homepage": "https://websh.org/packages/shell/",
+  "dependencies": {
+    "@websh/remote-master-port": "^0.1.1"
+  }
+}

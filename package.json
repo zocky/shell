@@ -1,0 +1,28 @@
+{
+  "description": "Template repo for WebShell packages",
+  "scripts": {
+    "test": "(cd tests; parcel shell.html app.html --open)",
+    "build": "bash scripts/build || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/shell.git"
+  },
+  "keywords": [
+    "websh",
+    "webshell",
+    "shell"
+  ],
+  "author": "Zoran Obradović, Ljudmila.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/shell/issues"
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions"
+  ],
+  "homepage": "https://websh.org/packages/shell/",
+  "private": true,
+  "dependencies": {}
+}
