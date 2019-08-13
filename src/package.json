@@ -21,6 +21,7 @@
   },
   "homepage": "https://websh.org/packages/shell/",
   "dependencies": {
-    "@websh/remote-master-port": "^0.1.1"
+    "@websh/bios": "^0.1.1",
+    "@websh/remote-master-port": "^0.1.2"
   }
 }
